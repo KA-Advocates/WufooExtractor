@@ -1,0 +1,4 @@
+xlsxwriter
+requests
+toolz
+tqdm
