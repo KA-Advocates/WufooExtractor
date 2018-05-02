@@ -1,2 +1,2 @@
 #!/bin/sh
-sudo -u uli bash -c 'cd /var/sites/wufoo.localgrid.de && ./WufooCSVExport.py'
+sudo -u uli bash -c 'cd /mnt/production/WufooExtractor && ./WufooCSVExport.py'
