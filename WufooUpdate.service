@@ -5,3 +5,5 @@ Description=WufooUpdate
 Type=oneshot
 ExecStart=/bin/bash -c 'cd /mnt/production/WufooExtractor && ./WufooCSVExport.py'
 WorkingDirectory=/var/sites/wufoo.localgrid.de
+User=uli
+Group=uli
