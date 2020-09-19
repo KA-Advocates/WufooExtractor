@@ -3,7 +3,7 @@ Description=WufooUpdate
 
 [Service]
 Type=oneshot
-ExecStart=/usr/bin/env/python3 WufooCSVExport.py
+ExecStart=/usr/bin/env python3 WufooCSVExport.py
 WorkingDirectory=/var/sites/wufoo.localgrid.de
 User=uli
 Group=uli
